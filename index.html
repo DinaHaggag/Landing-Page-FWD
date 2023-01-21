@@ -5,8 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page FWD</title>
+    <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+<!--Start header of page -->
+<header class="pageHeader">
+    <!-- the navigation bar -->
+    <nav class="navbarMenu">
+        <!-- nav list -->
+        <ul id="navbarList"></ul>
+    </nav>
+</header>
+<!--End header of page -->
+
+<!-- Start the main content of the page -->
+<main id="main">
+    <!-- add section button -->
+    <button id="addSec">Add A New Section </button>
+    <!-- title of the page -->
+    <header class="mainHero">
+      <h1>Your Books Library</h1>
+    </header>
+
+    <!-- Sections of the page -->
+    <!-- the first section (Historical Fiction)-->
+    <section id="section1" data-nav="Section 1"  class="activeClass">
+        <div class="landingContainer">
+          <h2>Historical Fiction</h2>
+          <button type="button" class="collapsible">+</button>
+          <div  style="display:block">
+            <h3> The Last House on the Street</h3>
+            <h4> by Diane Chamberlain</h4>
+            <p>When Kayla Carter's husband dies in an accident while building their dream house, she knows she has to stay strong for their four-year-old daughter. But the trophy home in Shadow Ridge Estates, a new development in sleepy Round Hill, North Carolina, will always hold tragic memories. But when she is confronted by an odd, older woman telling her not to move in, she almost agrees. It's clear this woman has some kind of connection to the area...and a connection to Kayla herself. Kayla's elderly new neighbor, Ellie Hockley, is more welcoming, but it's clear she, too, has secrets that stretch back almost fifty years. Is Ellie on a quest to right the wrongs of the past? And does the house at the end of the street hold the key? Told in dual time periods, The Last House on the Street is a novel of shocking prejudice and violence, forbidden love, the search for justice, and the tangled vines of two families. </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- the second section (Fantasy)-->
+      <section id="section2" data-nav="Section 2"  >
+        <div class="landingContainer">
+          <h2>Fantasy</h2>
+          <button type="button" class="collapsible">+</button>
+          <div style="display:block">
+            <h3> The World We Make </h3>
+            <h4> by N.K. Jemisin</h4>
+            <p>All is not well in the city that never sleeps.Even though the avatars of New York City have temporarily managed to stop the Woman in White from invading—and destroying the entire universe in the process—the mysterious capital "E" Enemy has more subtle powers at her disposal. A new candidate for mayor wielding the populist rhetoric of gentrification, xenophobia, and "law and order" may have what it takes to change the very nature of New York itself and take it down from the inside.</p>
+            <p>In order to defeat him, and the Enemy who holds his purse strings, the avatars will have to join together with the other Great Cities of the world in order to bring her down for good and protect their world from complete destruction.</p>
+            <p>N.K. Jemisin's Great Cities Duology, which began with The City We Became and concludes with The World We Make, is a masterpiece of speculative fiction from one of the most important writers of her generation.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- the third section (Science Fiction) -->
+      <section id="section3" data-nav="Section 3" >
+        <div class="landingContainer">
+          <h2>Science Fiction</h2>
+          <button type="button" class="collapsible">+</button>
+          <div style="display:block">
+            <h3> Nona the Ninth</h3>
+            <h4> by Tamsyn Muir</h4>
+            <p>Her city is under siege.
+
+                The zombies are coming back.
+                
+                And all Nona wants is a birthday party.
+                
+                In many ways, Nona is like other people. She lives with her family, has a job at her local school, and loves walks on the beach and meeting new dogs. But Nona's not like other people. Six months ago she woke up in a stranger's body, and she's afraid she might have to give it back. </p>
+            <p>The whole city is falling to pieces. A monstrous blue sphere hangs on the horizon, ready to tear the planet apart. Blood of Eden forces have surrounded the last Cohort facility and wait for the Emperor Undying to come calling. Their leaders want Nona to be the weapon that will save them from the Nine Houses. Nona would prefer to live an ordinary life with the people she loves, with Pyrrha and Camilla and Palamedes, but she also knows that nothing lasts forever.
+
+                And each night, Nona dreams of a woman with a skull-painted face...</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- the fourth section (Horror) -->
+      <section id="section4" data-nav="Section 4" >
+        <div class="landingContainer" id="new">
+          <h2>Horror</h2>
+          <button type="button" class="collapsible">+</button>
+          <div  style="display:block">
+            <h3> Gallows Hill </h3>
+            <h4> by Darcy Coates  </h4>
+            <p>The Hull family has owned the Gallows Hill Winery for generations, living and working on the beautiful grounds where they grow their famous grapes. Until the night Mr. and Mrs. Hull settle down for the evening...and are dead by morning.</p>
+            <p>When their daughter, Margot, inherits the family business, she wants nothing to do with it. The winery is valued for its unparalleled produce, but it's built on a field where hundreds of convicts were once hanged, and the locals whisper morbid rumors. They say the ground is cursed. </p>
+            <p>It's been more than a decade since Margot last saw her childhood home. But now that she's alone in the sprawling, dilapidated building, she begins to believe the curse is more than real―and that she may be the next victim of the house that never rests...</p>
+          </div>
+        </div>
+      </section>
+
+</main>
+<!-- Start the main content of the page -->
+
+<!-- top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+
+
+<!-- the footer of the page -->
+<footer class="pageFooter">
+    <p>&copy By Dina Haggag (FWD & Udacity Project)</p>
+  </footer>
+
+
+
+    <!-- js-->
+    <script src="js/app.js"></script>
 </body>
 </html>
